@@ -82,19 +82,26 @@
   <script defer>
     let data;
     let keys;
+    let animating = false;
     (async () => {
     	data = await fetch("https://raw.githubusercontent.com/SBtree-bit/kiche-website-storage/main/engkiche_dictionary.json").then(data => data.json())
     	keys = Object.keys(data)
     })()
     
     document.querySelector("#card").onclick = () => {
-    	document.querySelector("#card").classList.toggle("out")
-    	setTimeout(() => {
-    		let key = keys[Math.floor(Math.random() * (keys.length - 1))]
-    		document.querySelector("#english").innerText = key
-    		document.querySelector("#kiche").innerText = data[key]
-    	}, 1500)
-    	setTimeout(() => document.querySelector("#card").classList.toggle("out"),3000)
+      if (!animating) {
+      	document.querySelector("#card").classList.toggle("out")
+        animating = true
+      	setTimeout(() => {
+      		let key = keys[Math.floor(Math.random() * (keys.length - 1))]
+      		document.querySelector("#english").innerText = key
+      		document.querySelector("#kiche").innerText = data[key]
+      	}, 1500)
+      	setTimeout(() => {
+          document.querySelector("#card").classList.toggle("out")
+          animating = false
+        },3000)
+      }
     }
   </script>
 </body>
