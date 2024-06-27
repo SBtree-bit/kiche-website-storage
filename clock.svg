@@ -1,0 +1,46 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Anton");
+</style>
+</defs>
+<g clip-path="url(#clip0_1_2)">
+<g filter="url(#filter0_d_1_2)">
+<mask id="mask0_1_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<rect width="200" height="200" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1_2)">
+<path d="M91.25 137.917L138.333 90.8333L126.458 78.9583L91.25 114.167L73.5417 96.4583L61.6667 108.333L91.25 137.917ZM100 183.333C89.5833 183.333 79.8264 181.354 70.7292 177.396C61.6319 173.438 53.7153 168.09 46.9792 161.354C40.2431 154.618 34.8958 146.701 30.9375 137.604C26.9792 128.507 25 118.75 25 108.333C25 97.9167 26.9792 88.1597 30.9375 79.0625C34.8958 69.9653 40.2431 62.0486 46.9792 55.3125C53.7153 48.5764 61.6319 43.2292 70.7292 39.2708C79.8264 35.3125 89.5833 33.3333 100 33.3333C110.417 33.3333 120.174 35.3125 129.271 39.2708C138.368 43.2292 146.285 48.5764 153.021 55.3125C159.757 62.0486 165.104 69.9653 169.063 79.0625C173.021 88.1597 175 97.9167 175 108.333C175 118.75 173.021 128.507 169.063 137.604C165.104 146.701 159.757 154.618 153.021 161.354C146.285 168.09 138.368 173.438 129.271 177.396C120.174 181.354 110.417 183.333 100 183.333ZM46.6667 19.5833L58.3333 31.25L22.9167 66.6667L11.25 55L46.6667 19.5833ZM153.333 19.5833L188.75 55L177.083 66.6667L141.667 31.25L153.333 19.5833ZM100 166.667C116.25 166.667 130.035 161.007 141.354 149.688C152.674 138.368 158.333 124.583 158.333 108.333C158.333 92.0833 152.674 78.2986 141.354 66.9792C130.035 55.6597 116.25 50 100 50C83.75 50 69.9653 55.6597 58.6458 66.9792C47.3264 78.2986 41.6667 92.0833 41.6667 108.333C41.6667 124.583 47.3264 138.368 58.6458 149.688C69.9653 161.007 83.75 166.667 100 166.667Z" fill="#1C1B1F"/>
+</g>
+</g>
+<circle cx="100" cy="108" r="58" fill="white"/>
+<g filter="url(#filter1_d_1_2)">
+<text id="countdown" fill="#1C1B1F" xml:space="preserve" style="white-space: pre" font-family="Anton" font-size="64" letter-spacing="0em"><tspan x="67.875" y="134.609">30</tspan></text>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_2" x="7.25" y="19.5833" width="185.5" height="171.75" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+<filter id="filter1_d_1_2" x="65.0938" y="79.5" width="68.7812" height="64.125" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+<clipPath id="clip0_1_2">
+<rect width="200" height="200" fill="white"/>
+</clipPath>
+</defs>
+</svg>
