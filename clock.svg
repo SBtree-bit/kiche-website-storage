@@ -15,7 +15,7 @@
 </g>
 <circle cx="100" cy="108" r="58" fill="white"/>
 <g filter="url(#filter1_d_1_2)">
-<text text-anchor="middle" fill="#1C1B1F" xml:space="preserve" style="white-space: pre" font-family="Anton" font-size="64" letter-spacing="0em"><tspan x="100.875" y="134.609" id="countdown">30</tspan></text>
+<text text-anchor="middle" fill="#1C1B1F" xml:space="preserve" style="white-space: pre" font-family="Anton" font-size="64" letter-spacing="0em"><tspan x="95.875" y="134.609" id="countdown">30</tspan></text>
 </g>
 </g>
 <defs>
